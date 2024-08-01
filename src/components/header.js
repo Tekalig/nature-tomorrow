@@ -13,7 +13,7 @@ function Header() {
       <div className="flex items-center gap-5">
         <DarkMode />
         <Link href={"/"} className="flex gap-2 items-center">
-          <span className="text-2xl bg-yellow-600 font-bold py-1 px-2 rounded-lg">
+          <span className="text-2xl bg-green-400 font-bold py-1 px-2 rounded-lg">
             NTRe
           </span>
           <span className="text-xl hidden sm:inline">tomorrow</span>

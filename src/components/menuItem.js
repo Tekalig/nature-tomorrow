@@ -7,7 +7,7 @@ function Menu(props) {
   console.log(title, address);
   return (
     <div>
-      <Link href={address} className="hover:text-yellow-800">
+      <Link href={address} className="hover:text-green-400">
         {title === "home" ? (
           <AiFillHome className="sm:hidden text-2xl" />
         ) : (

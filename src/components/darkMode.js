@@ -14,12 +14,12 @@ function DarkMode() {
       {isMounted &&
         (currentTheme === "dark" ? (
           <MdLightMode
-            className="text-2xl hover:text-yellow-800 cursor-pointer"
+            className="text-2xl hover:text-green-400 cursor-pointer"
             onClick={() => setTheme("light")}
           />
         ) : (
           <MdDarkMode
-            className="text-2xl hover:text-yellow-800 cursor-pointer"
+            className="text-2xl hover:text-green-400 cursor-pointer"
             onClick={() => setTheme("dark")}
           />
         ))}
